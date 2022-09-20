@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Tasks\MedianOfTwoSortedArrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tasks\ReverseInteger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
