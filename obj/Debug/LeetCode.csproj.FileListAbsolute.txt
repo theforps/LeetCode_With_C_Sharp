@@ -1,0 +1,3 @@
+C:\Users\thefo\Desktop\vs project\repositories\LeetCode\obj\Debug\LeetCode.csproj.AssemblyReference.cache
+C:\Users\thefo\Desktop\vs project\repositories\LeetCode\obj\Debug\LeetCode.csproj.SuggestedBindingRedirects.cache
+C:\Users\thefo\Desktop\vs project\repositories\LeetCode\obj\Debug\LeetCode.csproj.CoreCompileInputs.cache
