@@ -49,6 +49,7 @@
     <Compile Include="Tasks\PalindromeNumber.cs" />
     <Compile Include="Tasks\ReverseInteger.cs" />
     <Compile Include="Tasks\ReverseString.cs" />
+    <Compile Include="Tasks\RomanToInteger.cs" />
     <Compile Include="Tasks\SingleNumber.cs" />
     <Compile Include="Tasks\ValidPalindrome.cs" />
   </ItemGroup>
