@@ -24,5 +24,13 @@ public class MergeSortedArray
         return nums1;
     }
 
+    #region test cases
+    static void Main(string[] args)
+    {
+        //will return [1,2,2,3,5,6]
+        foreach (var x in Merge(new int[] { 1, 2, 3, 0, 0, 0 }, 3, new int[] { 2, 5, 6 }, 3))
+            Console.WriteLine(x + " ");
+    }
+    #endregion
 }
 
