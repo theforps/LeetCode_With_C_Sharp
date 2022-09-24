@@ -1,13 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LeetCode.Tasks
+/*
+//  https://leetcode.com/problems/move-zeroes/
+*/
+
+public class moveZeroes
 {
-    public class MoveZeroes
+    public static int[] MoveZeroes(int[] nums)
     {
+        if (nums.Length != 1)
+            for (int j = 0; j < nums.Length; j++)
+                for (int i = 1; i < nums.Length; i++)
+                {
+                    int alert = 0;
+                    if (nums[i - 1] == 0)
+                    {
+                        alert = nums[i];
+                        nums[i] = 0;
+                        nums[i - 1] = alert;
+                    }
+                }
 
+        return nums;
     }
+
+    #region test cases
+    static void Main(string[] args)
+    {
+        //will return [1,3,12,0,0]
+        foreach (var x in MoveZeroes(new int[] { 0, 1, 0, 3, 12 }))
+            Console.WriteLine(x + " ");
+    }
+    #endregion
 }
+
