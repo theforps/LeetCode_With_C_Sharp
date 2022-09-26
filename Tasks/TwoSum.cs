@@ -1,6 +1,8 @@
 ﻿using System;
 
-
+/*
+//  https://leetcode.com/problems/two-sum/
+*/
 
 namespace LeetCode.Tasks
 {
