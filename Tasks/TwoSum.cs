@@ -27,7 +27,7 @@ namespace LeetCode.Tasks
             foreach (var x in twoSum(new int[] { 3, 2, 4 }, 6))
                 Console.Write(x + "");
             //will return [0,1]
-            foreach (var x in twoSum(new int[] { 2, 7, 11, 15 }, 9))
+            foreach (var x in twoSum(new int[] { 3, 3 }, 6))
                 Console.Write(x + "");
         }
         #endregion
