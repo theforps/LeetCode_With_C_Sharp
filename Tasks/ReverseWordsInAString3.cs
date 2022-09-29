@@ -29,10 +29,10 @@ namespace LeetCode.Tasks
         #region test cases
         static void Main(string[] args)
         {
-            //will return "o","l","l","e","h"
-            Console.WriteLine(ReverseStringOne(new char[] { 'h', 'e', 'l', 'l', 'o' }));
-            //will return "h","a","n","n","a","H"
-            Console.WriteLine(ReverseStringOne(new char[] { 'H', 'a', 'n', 'n', 'a', 'h' }));
+            //will return "s'teL ekat edoCteeL tsetnoc"
+            Console.WriteLine(ReverseWords("Let's take LeetCode contest"));
+            //will return "doG gniD"
+            Console.WriteLine(ReverseWords("God Ding"));
         }
         #endregion
     }
