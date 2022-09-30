@@ -51,6 +51,7 @@
     <Compile Include="Tasks\PalindromeNumber.cs" />
     <Compile Include="Tasks\ReverseInteger.cs" />
     <Compile Include="Tasks\ReverseString.cs" />
+    <Compile Include="Tasks\ReverseWordsInAString.cs" />
     <Compile Include="Tasks\ReverseWordsInAString3.cs" />
     <Compile Include="Tasks\RomanToInteger.cs" />
     <Compile Include="Tasks\SingleNumber.cs" />
