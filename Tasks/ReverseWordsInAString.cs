@@ -22,10 +22,12 @@ namespace LeetCode.Tasks
         #region test cases
         static void Main(string[] args)
         {
-            //will return "s'teL ekat edoCteeL tsetnoc"
-            Console.WriteLine(ReverseWords("Let's take LeetCode contest"));
-            //will return "doG gniD"
-            Console.WriteLine(ReverseWords("God Ding"));
+            //will return "blue is sky the"
+            Console.WriteLine(ReverseWords("the sky is blue"));
+            //will return "world hello"
+            Console.WriteLine(ReverseWords("  hello world  "));
+            //will return "example good a"
+            Console.WriteLine(ReverseWords("a good   example"));
         }
         #endregion
     }
