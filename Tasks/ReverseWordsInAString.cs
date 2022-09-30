@@ -11,7 +11,6 @@ namespace LeetCode.Tasks
         public static string ReverseWords(string s)
         {
             string[] strArray = s.Split(' ');
-
             s = "";
 
             for (int i = strArray.Length - 1; i > -1; i--)
