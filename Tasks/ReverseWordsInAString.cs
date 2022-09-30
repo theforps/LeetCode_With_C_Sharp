@@ -1,7 +1,7 @@
 ﻿using System;
 
 /*
-//  https://leetcode.com/problems/reverse-words-in-a-string-iii/
+//  https://leetcode.com/problems/reverse-words-in-a-string/description/
 */
 
 namespace LeetCode.Tasks
