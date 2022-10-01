@@ -33,10 +33,8 @@ namespace LeetCode.Tasks
         {
             //will return 2
             Console.WriteLine(FindDuplicate(new int[] { 1, 3, 4, 2, 2 }));
-            //will return "world hello"
-            Console.WriteLine(ReverseWords("  hello world  "));
-            //will return "example good a"
-            Console.WriteLine(ReverseWords("a good   example"));
+            //will return 3
+            Console.WriteLine(FindDuplicate(new int[] { 3, 1, 3, 4, 2 }));
         }
         #endregion
     }
