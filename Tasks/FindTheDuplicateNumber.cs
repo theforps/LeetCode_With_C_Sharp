@@ -1,6 +1,8 @@
 ﻿using System;
 
-
+/*
+//  https://leetcode.com/problems/find-the-duplicate-number/
+*/
 
 namespace LeetCode.Tasks
 {
