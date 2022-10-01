@@ -10,6 +10,7 @@ namespace LeetCode.Tasks
     {
         public int FindDuplicate(int[] nums)
         {
+            // variant 1
             Array.Sort(nums);
 
             for (int i = 1; i < nums.Length; i++)
