@@ -26,8 +26,18 @@ namespace LeetCode.Tasks
 
             return 0;
             */
-
-
         }
+
+        #region test cases
+        static void Main(string[] args)
+        {
+            //will return "blue is sky the"
+            Console.WriteLine(ReverseWords("the sky is blue"));
+            //will return "world hello"
+            Console.WriteLine(ReverseWords("  hello world  "));
+            //will return "example good a"
+            Console.WriteLine(ReverseWords("a good   example"));
+        }
+        #endregion
     }
 }
