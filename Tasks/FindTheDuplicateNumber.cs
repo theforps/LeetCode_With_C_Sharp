@@ -8,7 +8,7 @@ namespace LeetCode.Tasks
 {
     public class FindTheDuplicateNumber
     {
-        public int FindDuplicate(int[] nums)
+        public static int FindDuplicate(int[] nums)
         {
             // variant 1
             Array.Sort(nums);
@@ -31,8 +31,8 @@ namespace LeetCode.Tasks
         #region test cases
         static void Main(string[] args)
         {
-            //will return "blue is sky the"
-            Console.WriteLine(ReverseWords("the sky is blue"));
+            //will return 2
+            Console.WriteLine(FindDuplicate(new int[] { 1, 3, 4, 2, 2 }));
             //will return "world hello"
             Console.WriteLine(ReverseWords("  hello world  "));
             //will return "example good a"
