@@ -55,9 +55,9 @@
     <Compile Include="Tasks\ReverseWordsInAString.cs" />
     <Compile Include="Tasks\ReverseWordsInAString3.cs" />
     <Compile Include="Tasks\Easy\RomanToInteger.cs" />
-    <Compile Include="Tasks\SingleNumber.cs" />
+    <Compile Include="Tasks\Easy\SingleNumber.cs" />
     <Compile Include="Tasks\Easy\TwoSum.cs" />
-    <Compile Include="Tasks\ValidPalindrome.cs" />
+    <Compile Include="Tasks\Easy\ValidPalindrome.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
