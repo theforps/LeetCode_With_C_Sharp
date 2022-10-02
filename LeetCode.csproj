@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tasks\AddTwoIntegers.cs" />
+    <Compile Include="Tasks\Easy\AddTwoIntegers.cs" />
     <Compile Include="Tasks\FindTheDuplicateNumber.cs" />
     <Compile Include="Tasks\MedianOfTwoSortedArrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,7 +53,7 @@
     <Compile Include="Tasks\ReverseInteger.cs" />
     <Compile Include="Tasks\Easy\ReverseString.cs" />
     <Compile Include="Tasks\ReverseWordsInAString.cs" />
-    <Compile Include="Tasks\ReverseWordsInAString3.cs" />
+    <Compile Include="Tasks\Easy\ReverseWordsInAString3.cs" />
     <Compile Include="Tasks\Easy\RomanToInteger.cs" />
     <Compile Include="Tasks\Easy\SingleNumber.cs" />
     <Compile Include="Tasks\Easy\TwoSum.cs" />
