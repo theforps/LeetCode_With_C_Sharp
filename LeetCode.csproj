@@ -49,18 +49,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\MergeSortedArray.cs" />
     <Compile Include="Tasks\MoveZeroes.cs" />
-    <Compile Include="Tasks\PalindromeNumber.cs" />
+    <Compile Include="Tasks\Easy\PalindromeNumber.cs" />
     <Compile Include="Tasks\ReverseInteger.cs" />
     <Compile Include="Tasks\ReverseString.cs" />
     <Compile Include="Tasks\ReverseWordsInAString.cs" />
     <Compile Include="Tasks\ReverseWordsInAString3.cs" />
     <Compile Include="Tasks\RomanToInteger.cs" />
     <Compile Include="Tasks\SingleNumber.cs" />
-    <Compile Include="Tasks\TwoSum.cs" />
+    <Compile Include="Tasks\Easy\TwoSum.cs" />
     <Compile Include="Tasks\ValidPalindrome.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tasks\Hard\" />
+    <Folder Include="Tasks\Medium\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
