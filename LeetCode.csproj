@@ -50,9 +50,9 @@
     <Compile Include="Tasks\Easy\MergeSortedArray.cs" />
     <Compile Include="Tasks\Easy\MoveZeroes.cs" />
     <Compile Include="Tasks\Easy\PalindromeNumber.cs" />
-    <Compile Include="Tasks\ReverseInteger.cs" />
+    <Compile Include="Tasks\Medium\ReverseInteger.cs" />
     <Compile Include="Tasks\Easy\ReverseString.cs" />
-    <Compile Include="Tasks\ReverseWordsInAString.cs" />
+    <Compile Include="Tasks\Medium\ReverseWordsInAString.cs" />
     <Compile Include="Tasks\Easy\ReverseWordsInAString3.cs" />
     <Compile Include="Tasks\Easy\RomanToInteger.cs" />
     <Compile Include="Tasks\Easy\SingleNumber.cs" />
@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tasks\Hard\" />
-    <Folder Include="Tasks\Medium\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
