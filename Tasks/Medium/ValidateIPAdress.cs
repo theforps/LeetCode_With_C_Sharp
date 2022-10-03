@@ -29,7 +29,6 @@ namespace LeetCode.Tasks.Medium
                     if ((str.Length > 1 && str[0] == '0') || !yes || newStr > 255 || newStr < 0)
                         return "Neither";
                 }
-
                 return "IPv4";
             }
 
@@ -50,7 +49,6 @@ namespace LeetCode.Tasks.Medium
                     if (str.Length > 4 || str.Length < 1)
                         return "Neither";
                 }
-
                 return "IPv6";
             }
             return "Neither";
