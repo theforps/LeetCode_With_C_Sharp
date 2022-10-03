@@ -59,8 +59,8 @@ namespace LeetCode.Tasks.Medium
         #region test cases
         static void Main(string[] args)
         {
-            //will return 2
-            Console.WriteLine(FindDuplicate(new int[] { 1, 3, 4, 2, 2 }));
+            //will return "IPv4"
+            Console.WriteLine(ValidIPAddress("172.16.254.1"));
             //will return 3
             Console.WriteLine(FindDuplicate(new int[] { 3, 1, 3, 4, 2 }));
         }
