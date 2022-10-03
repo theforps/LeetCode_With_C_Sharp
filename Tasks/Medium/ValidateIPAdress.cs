@@ -55,5 +55,15 @@ namespace LeetCode.Tasks.Medium
             }
             return "Neither";
         }
+
+        #region test cases
+        static void Main(string[] args)
+        {
+            //will return 2
+            Console.WriteLine(FindDuplicate(new int[] { 1, 3, 4, 2, 2 }));
+            //will return 3
+            Console.WriteLine(FindDuplicate(new int[] { 3, 1, 3, 4, 2 }));
+        }
+        #endregion
     }
 }
