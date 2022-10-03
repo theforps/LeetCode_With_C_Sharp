@@ -58,6 +58,7 @@
     <Compile Include="Tasks\Easy\SingleNumber.cs" />
     <Compile Include="Tasks\Easy\TwoSum.cs" />
     <Compile Include="Tasks\Easy\ValidPalindrome.cs" />
+    <Compile Include="Tasks\Medium\ValidateIPAdress.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
