@@ -61,8 +61,8 @@ namespace LeetCode.Tasks.Medium
         {
             //will return "IPv4"
             Console.WriteLine(ValidIPAddress("172.16.254.1"));
-            //will return 3
-            Console.WriteLine(FindDuplicate(new int[] { 3, 1, 3, 4, 2 }));
+            //will return "IPv6"
+            Console.WriteLine(ValidIPAddress("2001:0db8:85a3:0:0:8A2E:0370:7334"));
         }
         #endregion
     }
