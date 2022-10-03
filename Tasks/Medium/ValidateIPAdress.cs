@@ -53,7 +53,6 @@ namespace LeetCode.Tasks.Medium
 
                 return "IPv6";
             }
-
             return "Neither";
         }
     }
