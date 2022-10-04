@@ -29,11 +29,11 @@ namespace LeetCode.Tasks.Medium
         static void Main(string[] args)
         {
             //will return 3
-            Console.WriteLine(KthFactor(12,3));
+            Console.WriteLine(KthFactor( 12, 3 ));
             //will return 7
-            Console.WriteLine(KthFactor(12, 3));
+            Console.WriteLine(KthFactor( 7, 2 ));
             //will return -1
-            Console.WriteLine(KthFactor(12, 3));
+            Console.WriteLine(KthFactor( 4, 4 ));
         }
         #endregion
     }
