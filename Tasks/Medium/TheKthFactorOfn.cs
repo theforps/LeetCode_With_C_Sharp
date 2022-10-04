@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 /*
-//  https://leetcode.com/problems/validate-ip-address/
+//  https://leetcode.com/problems/the-kth-factor-of-n/
 */
 
 namespace LeetCode.Tasks.Medium
