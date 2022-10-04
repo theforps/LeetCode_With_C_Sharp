@@ -30,10 +30,10 @@ namespace LeetCode.Tasks.Medium
         {
             //will return 3
             Console.WriteLine(KthFactor(12,3));
-            //will return "IPv6"
-            Console.WriteLine(ValidIPAddress("2001:0db8:85a3:0:0:8A2E:0370:7334"));
-            //will return "Neither"
-            Console.WriteLine(ValidIPAddress("256.256.256.256"));
+            //will return 7
+            Console.WriteLine(KthFactor(12, 3));
+            //will return -1
+            Console.WriteLine(KthFactor(12, 3));
         }
         #endregion
     }
