@@ -9,7 +9,7 @@ namespace LeetCode.Tasks.Medium
 {
     public class TheKthFactorOfn
     {
-        public int KthFactor(int n, int k)
+        public static int KthFactor(int n, int k)
         {
             var list = new List<int>();
 
@@ -28,8 +28,8 @@ namespace LeetCode.Tasks.Medium
         #region test cases
         static void Main(string[] args)
         {
-            //will return "IPv4"
-            Console.WriteLine(ValidIPAddress("172.16.254.1"));
+            //will return 3
+            Console.WriteLine(KthFactor(12,3));
             //will return "IPv6"
             Console.WriteLine(ValidIPAddress("2001:0db8:85a3:0:0:8A2E:0370:7334"));
             //will return "Neither"
