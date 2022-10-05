@@ -25,10 +25,12 @@ namespace LeetCode.Tasks.Easy
             //will return [1,3,6,10]
             foreach (var x in RunningSum(new int[] { 1, 2, 3, 4 }))
                 Console.WriteLine(x + " ");
-            //will return 7
-            Console.WriteLine(KthFactor(7, 2));
-            //will return -1
-            Console.WriteLine(KthFactor(4, 4));
+            //will return [1,2,3,4,5]
+            foreach (var x in RunningSum(new int[] { 1, 1, 1, 1, 1 }))
+                Console.WriteLine(x + " ");
+            //will return [3,4,6,16,17]
+            foreach (var x in RunningSum(new int[] { 3, 1, 2, 10, 1 }))
+                Console.WriteLine(x + " ");
         }
         #endregion
     }
