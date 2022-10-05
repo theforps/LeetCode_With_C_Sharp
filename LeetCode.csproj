@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tasks\Easy\AddTwoIntegers.cs" />
+    <Compile Include="Tasks\Easy\RunningSumOf1dArray.cs" />
     <Compile Include="Tasks\Medium\FindTheDuplicateNumber.cs" />
     <Compile Include="Tasks\Hard\MedianOfTwoSortedArrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
