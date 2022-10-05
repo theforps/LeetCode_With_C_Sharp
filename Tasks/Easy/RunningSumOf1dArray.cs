@@ -1,5 +1,9 @@
 ﻿using System;
 
+/*
+//  https://leetcode.com/problems/running-sum-of-1d-array/
+*/
+
 namespace LeetCode.Tasks.Easy
 {
     public class RunningSumOf1dArray
