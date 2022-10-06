@@ -8,7 +8,7 @@ namespace LeetCode.Tasks.Easy
 {
     public class CalculateMoneyInLeetcodeBank
     {
-        public int TotalMoney(int n)
+        public static int TotalMoney(int n)
         {
             int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
             int sum = 0;
@@ -32,15 +32,12 @@ namespace LeetCode.Tasks.Easy
         #region test cases
         static void Main(string[] args)
         {
-            //will return [1,3,6,10]
-            foreach (var x in RunningSum(new int[] { 1, 2, 3, 4 }))
-                Console.WriteLine(x + " ");
-            //will return [1,2,3,4,5]
-            foreach (var x in RunningSum(new int[] { 1, 1, 1, 1, 1 }))
-                Console.WriteLine(x + " ");
-            //will return [3,4,6,16,17]
-            foreach (var x in RunningSum(new int[] { 3, 1, 2, 10, 1 }))
-                Console.WriteLine(x + " ");
+            //will return 10
+            Console.WriteLine(TotalMoney(4));
+            //will return false
+            Console.WriteLine(IsPalindrome(-121));
+            //will return false
+            Console.WriteLine(IsPalindrome(10));
         }
         #endregion
     }
