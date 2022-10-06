@@ -34,10 +34,10 @@ namespace LeetCode.Tasks.Easy
         {
             //will return 10
             Console.WriteLine(TotalMoney(4));
-            //will return false
-            Console.WriteLine(IsPalindrome(-121));
-            //will return false
-            Console.WriteLine(IsPalindrome(10));
+            //will return 37
+            Console.WriteLine(TotalMoney(10));
+            //will return 96
+            Console.WriteLine(TotalMoney(20));
         }
         #endregion
     }
