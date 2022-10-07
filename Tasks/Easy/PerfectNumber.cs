@@ -17,5 +17,17 @@ namespace LeetCode.Tasks.Easy
             if (num / divisor == 1 && num != 1) return true;
             else return false;
         }
+
+        #region test cases
+        static void Main(string[] args)
+        {
+            //will return true
+            Console.WriteLine(IsPalindrome(121));
+            //will return false
+            Console.WriteLine(IsPalindrome(-121));
+            //will return false
+            Console.WriteLine(IsPalindrome(10));
+        }
+        #endregion
     }
 }
