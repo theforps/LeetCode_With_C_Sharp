@@ -4,7 +4,7 @@ namespace LeetCode.Tasks.Easy
 {
     public class PerfectNumber
     {
-        public bool CheckPerfectNumber(int num)
+        public static bool CheckPerfectNumber(int num)
         {
             decimal divisor = 1;
 
@@ -22,11 +22,9 @@ namespace LeetCode.Tasks.Easy
         static void Main(string[] args)
         {
             //will return true
-            Console.WriteLine(IsPalindrome(121));
+            Console.WriteLine(CheckPerfectNumber(28));
             //will return false
-            Console.WriteLine(IsPalindrome(-121));
-            //will return false
-            Console.WriteLine(IsPalindrome(10));
+            Console.WriteLine(CheckPerfectNumber(7));
         }
         #endregion
     }
