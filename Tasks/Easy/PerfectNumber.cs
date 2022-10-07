@@ -1,5 +1,9 @@
 ﻿using System;
 
+/*
+//  https://leetcode.com/problems/perfect-number/
+*/
+
 namespace LeetCode.Tasks.Easy
 {
     public class PerfectNumber
