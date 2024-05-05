@@ -2,6 +2,6 @@
 .vs/LeetCode
 .idea
 .git
-.bin
-.obj
+.bin/
+.obj/
 .Properties
