@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Tasks\Easy\AddTwoIntegers.cs" />
     <Compile Include="Tasks\Easy\CalculateMoneyInLeetcodeBank.cs" />
     <Compile Include="Tasks\Easy\PerfectNumber.cs" />
     <Compile Include="Tasks\Easy\RunningSumOf1dArray.cs" />
     <Compile Include="Tasks\Medium\FindTheDuplicateNumber.cs" />
     <Compile Include="Tasks\Hard\MedianOfTwoSortedArrays.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tasks\Easy\MergeSortedArray.cs" />
     <Compile Include="Tasks\Easy\MoveZeroes.cs" />
     <Compile Include="Tasks\Easy\PalindromeNumber.cs" />
@@ -63,9 +63,6 @@
     <Compile Include="Tasks\Easy\ValidPalindrome.cs" />
     <Compile Include="Tasks\Medium\TheKthFactorOfn.cs" />
     <Compile Include="Tasks\Medium\ValidateIPAdress.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
