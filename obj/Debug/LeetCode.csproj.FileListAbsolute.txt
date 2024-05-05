@@ -1,9 +1,0 @@
-C:\Users\thefo\Desktop\vs project\repositories\LeetCode\obj\Debug\LeetCode.csproj.AssemblyReference.cache
-C:\Users\thefo\Desktop\vs project\repositories\LeetCode\obj\Debug\LeetCode.csproj.SuggestedBindingRedirects.cache
-C:\Users\thefo\Desktop\vs project\repositories\LeetCode\obj\Debug\LeetCode.csproj.CoreCompileInputs.cache
-D:\Projects\C_Sharp\LeetCode_With_C_Sharp\bin\Debug\LeetCode.exe
-D:\Projects\C_Sharp\LeetCode_With_C_Sharp\bin\Debug\LeetCode.pdb
-D:\Projects\C_Sharp\LeetCode_With_C_Sharp\obj\Debug\LeetCode.csproj.AssemblyReference.cache
-D:\Projects\C_Sharp\LeetCode_With_C_Sharp\obj\Debug\LeetCode.csproj.CoreCompileInputs.cache
-D:\Projects\C_Sharp\LeetCode_With_C_Sharp\obj\Debug\LeetCode.exe
-D:\Projects\C_Sharp\LeetCode_With_C_Sharp\obj\Debug\LeetCode.pdb
