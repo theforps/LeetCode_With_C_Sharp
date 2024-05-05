@@ -1,8 +1,11 @@
-﻿using System;
-
+﻿
 /*
 //  https://leetcode.com/problems/calculate-money-in-leetcode-bank/
 */
+
+//will return 10
+//Console.WriteLine(TotalMoney(4));
+
 
 namespace LeetCode.Tasks.Easy
 {
@@ -28,17 +31,5 @@ namespace LeetCode.Tasks.Easy
 
             return sum;
         }
-
-        #region test cases
-        static void Main(string[] args)
-        {
-            //will return 10
-            Console.WriteLine(TotalMoney(4));
-            //will return 37
-            Console.WriteLine(TotalMoney(10));
-            //will return 96
-            Console.WriteLine(TotalMoney(20));
-        }
-        #endregion
     }
 }

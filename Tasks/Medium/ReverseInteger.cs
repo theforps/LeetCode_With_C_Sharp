@@ -4,6 +4,13 @@
 //  https://leetcode.com/problems/reverse-integer/
 */
 
+// //will return 0
+// Console.WriteLine(Reverse(1534236469));
+// //will return 321
+// Console.WriteLine(Reverse(123));
+// //will return 21
+// Console.WriteLine(Reverse(120));
+
 public class ReverseInteger
 {
     public static int Reverse(int x)
@@ -32,16 +39,4 @@ public class ReverseInteger
 
         return k;
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return 0
-        Console.WriteLine(Reverse(1534236469));
-        //will return 321
-        Console.WriteLine(Reverse(123));
-        //will return 21
-        Console.WriteLine(Reverse(120));
-    }
-    #endregion
 }

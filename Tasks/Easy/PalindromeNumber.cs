@@ -4,6 +4,13 @@
 //  https://leetcode.com/problems/palindrome-number/
 */
 
+// //will return true
+// Console.WriteLine(IsPalindrome(121));
+// //will return false
+// Console.WriteLine(IsPalindrome(-121));
+// //will return false
+// Console.WriteLine(IsPalindrome(10));
+
 public class PalindromeNumber
 {
     public static bool IsPalindrome(int x)
@@ -22,16 +29,4 @@ public class PalindromeNumber
         else
             return false;
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return true
-        Console.WriteLine(IsPalindrome(121));
-        //will return false
-        Console.WriteLine(IsPalindrome(-121));
-        //will return false
-        Console.WriteLine(IsPalindrome(10));
-    }
-    #endregion
 }

@@ -4,6 +4,11 @@
 //  https://leetcode.com/problems/find-the-duplicate-number/
 */
 
+// //will return 2
+// Console.WriteLine(FindDuplicate(new int[] { 1, 3, 4, 2, 2 }));
+// //will return 3
+// Console.WriteLine(FindDuplicate(new int[] { 3, 1, 3, 4, 2 }));
+
 namespace LeetCode.Tasks
 {
     public class FindTheDuplicateNumber
@@ -27,15 +32,5 @@ namespace LeetCode.Tasks
             return 0;
             */
         }
-
-        #region test cases
-        static void Main(string[] args)
-        {
-            //will return 2
-            Console.WriteLine(FindDuplicate(new int[] { 1, 3, 4, 2, 2 }));
-            //will return 3
-            Console.WriteLine(FindDuplicate(new int[] { 3, 1, 3, 4, 2 }));
-        }
-        #endregion
     }
 }

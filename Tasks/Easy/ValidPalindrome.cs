@@ -4,6 +4,13 @@
 //  https://leetcode.com/problems/valid-palindrome/
 */
 
+// //will return true
+// Console.WriteLine(IsPalindrome("A man, a plan, a canal: Panama"));
+// //will return false
+// Console.WriteLine(IsPalindrome("race a car"));
+// //will return true
+// Console.WriteLine(IsPalindrome(" "));
+
 public class ValidPalindrome
 {
     public static bool IsPalindrome(string s)
@@ -25,16 +32,4 @@ public class ValidPalindrome
         if (s == str2) return true;
         else return false;
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return true
-        Console.WriteLine(IsPalindrome("A man, a plan, a canal: Panama"));
-        //will return false
-        Console.WriteLine(IsPalindrome("race a car"));
-        //will return true
-        Console.WriteLine(IsPalindrome(" "));
-    }
-    #endregion
 }

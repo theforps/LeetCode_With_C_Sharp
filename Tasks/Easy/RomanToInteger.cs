@@ -5,6 +5,13 @@ using System.Collections.Generic;
 //  https://leetcode.com/problems/roman-to-integer/
 */
 
+// //will return 3
+// Console.WriteLine(RomanToInt("III"));
+// //will return 58
+// Console.WriteLine(RomanToInt("LVIII"));
+// //will return 1994
+// Console.WriteLine(RomanToInt("MCMXCIV"));
+
 public class RomanToInteger
 {
     public static int RomanToInt(string s)
@@ -33,17 +40,5 @@ public class RomanToInteger
 
         return res;
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return 3
-        Console.WriteLine(RomanToInt("III"));
-        //will return 58
-        Console.WriteLine(RomanToInt("LVIII"));
-        //will return 1994
-        Console.WriteLine(RomanToInt("MCMXCIV"));
-    }
-    #endregion
 }
 

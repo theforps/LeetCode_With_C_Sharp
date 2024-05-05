@@ -5,6 +5,13 @@ using System.Collections.Generic;
 //  https://leetcode.com/problems/median-of-two-sorted-arrays/
 */
 
+// //will return 2
+// Console.WriteLine(FindMedianSortedArrays(new int[] { 1, 3 }, new int[] { 2 }));
+// //will return 2.5
+// Console.WriteLine(FindMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3, 4 }));
+// //will return 5
+// Console.WriteLine(FindMedianSortedArrays(new int[] { 5 }, new int[] { }));
+
 public class MedianOfTwoSortedArrays
 {
     public static double FindMedianSortedArrays(int[] nums1, int[] nums2)
@@ -33,16 +40,4 @@ public class MedianOfTwoSortedArrays
             return dubMedian;
         }
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return 2
-        Console.WriteLine(FindMedianSortedArrays(new int[] { 1, 3 }, new int[] { 2 }));
-        //will return 2.5
-        Console.WriteLine(FindMedianSortedArrays(new int[] { 1, 2 }, new int[] { 3, 4 }));
-        //will return 5
-        Console.WriteLine(FindMedianSortedArrays(new int[] { 5 }, new int[] { }));
-    }
-    #endregion
 }

@@ -4,6 +4,10 @@
 //  https://leetcode.com/problems/move-zeroes/
 */
 
+//will return [1,3,12,0,0]
+// foreach (var x in MoveZeroes(new int[] { 0, 1, 0, 3, 12 }))
+//     Console.WriteLine(x + " ");
+
 public class moveZeroes
 {
     public static int[] MoveZeroes(int[] nums)
@@ -23,14 +27,5 @@ public class moveZeroes
 
         return nums;
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return [1,3,12,0,0]
-        foreach (var x in MoveZeroes(new int[] { 0, 1, 0, 3, 12 }))
-            Console.WriteLine(x + " ");
-    }
-    #endregion
 }
 

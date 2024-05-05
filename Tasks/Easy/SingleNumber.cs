@@ -4,6 +4,13 @@
 //  https://leetcode.com/problems/single-number/
 */
 
+// //will return 1
+// Console.WriteLine(SingleNumberOne(new int[]{ 2, 2, 1 }));
+// //will return 4
+// Console.WriteLine(SingleNumberOne(new int[] { 4, 1, 2, 1, 2 }));
+// //will return 1
+// Console.WriteLine(SingleNumberOne(new int[] { 1 }));
+
 public class SingleNumber
 {
     public static int SingleNumberOne(int[] nums)
@@ -24,16 +31,4 @@ public class SingleNumber
 
         return 0;
     }
-
-    #region test cases
-    static void Main(string[] args)
-    {
-        //will return 1
-        Console.WriteLine(SingleNumberOne(new int[]{ 2, 2, 1 }));
-        //will return 4
-        Console.WriteLine(SingleNumberOne(new int[] { 4, 1, 2, 1, 2 }));
-        //will return 1
-        Console.WriteLine(SingleNumberOne(new int[] { 1 }));
-    }
-    #endregion
 }

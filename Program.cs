@@ -1,7 +1,12 @@
-﻿namespace LeetCode
+﻿using LeetCode.Tasks.Easy;
+
+namespace LeetCode
 {
-    public class Program
+    public static class Program
     {
-        
+        static void Main()
+        {
+            
+        }
     }
 }

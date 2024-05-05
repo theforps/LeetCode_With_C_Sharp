@@ -4,6 +4,11 @@
 //  https://leetcode.com/problems/reverse-words-in-a-string-iii/
 */
 
+// //will return "s'teL ekat edoCteeL tsetnoc"
+// Console.WriteLine(ReverseWords("Let's take LeetCode contest"));
+// //will return "doG gniD"
+// Console.WriteLine(ReverseWords("God Ding"));
+
 namespace LeetCode.Tasks
 {
     public class ReverseWordsInAString3
@@ -25,15 +30,5 @@ namespace LeetCode.Tasks
 
             return s;
         }
-
-        #region test cases
-        static void Main(string[] args)
-        {
-            //will return "s'teL ekat edoCteeL tsetnoc"
-            Console.WriteLine(ReverseWords("Let's take LeetCode contest"));
-            //will return "doG gniD"
-            Console.WriteLine(ReverseWords("God Ding"));
-        }
-        #endregion
     }
 }

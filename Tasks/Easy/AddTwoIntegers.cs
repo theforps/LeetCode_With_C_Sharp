@@ -1,23 +1,15 @@
-﻿using System;
-
-/*
+﻿/*
 //  https://leetcode.com/problems/add-two-integers/
 */
 
-public class AddTwoIntegers
-{
-    public static int Sum(int num1, int num2)
-    {
-        return num1 + num2;
-    }
+//Sum( 12, 5 )
 
-    #region test cases
-    static void Main(string[] args)
+using System;
+
+public static class AddTwoIntegers
+{
+    public static void Sum(int num1, int num2)
     {
-        //will return 17
-        Console.WriteLine(Sum( 12, 5 ));
-        //will return -6
-        Console.WriteLine(Sum( -10, 4 ));
+        Console.WriteLine(num1 + num2);
     }
-    #endregion
 }

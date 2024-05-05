@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="Tasks\Easy\LongestCommonPrefix.cs" />
     <Compile Include="Tasks\Easy\AddTwoIntegers.cs" />
     <Compile Include="Tasks\Easy\CalculateMoneyInLeetcodeBank.cs" />
     <Compile Include="Tasks\Easy\PerfectNumber.cs" />

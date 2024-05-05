@@ -4,6 +4,11 @@
 //  https://leetcode.com/problems/perfect-number/
 */
 
+// //will return true
+// Console.WriteLine(CheckPerfectNumber(28));
+// //will return false
+// Console.WriteLine(CheckPerfectNumber(7));
+
 namespace LeetCode.Tasks.Easy
 {
     public class PerfectNumber
@@ -21,15 +26,5 @@ namespace LeetCode.Tasks.Easy
             if (num / divisor == 1 && num != 1) return true;
             else return false;
         }
-
-        #region test cases
-        static void Main(string[] args)
-        {
-            //will return true
-            Console.WriteLine(CheckPerfectNumber(28));
-            //will return false
-            Console.WriteLine(CheckPerfectNumber(7));
-        }
-        #endregion
     }
 }

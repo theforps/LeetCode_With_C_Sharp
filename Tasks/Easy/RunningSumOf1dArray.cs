@@ -4,6 +4,16 @@
 //  https://leetcode.com/problems/running-sum-of-1d-array/
 */
 
+// //will return [1,3,6,10]
+// foreach (var x in RunningSum(new int[] { 1, 2, 3, 4 }))
+//     Console.WriteLine(x + " ");
+// //will return [1,2,3,4,5]
+// foreach (var x in RunningSum(new int[] { 1, 1, 1, 1, 1 }))
+//     Console.WriteLine(x + " ");
+// //will return [3,4,6,16,17]
+// foreach (var x in RunningSum(new int[] { 3, 1, 2, 10, 1 }))
+//     Console.WriteLine(x + " ");
+
 namespace LeetCode.Tasks.Easy
 {
     public class RunningSumOf1dArray
@@ -22,20 +32,5 @@ namespace LeetCode.Tasks.Easy
             }
             return ints;
         }
-
-        #region test cases
-        static void Main(string[] args)
-        {
-            //will return [1,3,6,10]
-            foreach (var x in RunningSum(new int[] { 1, 2, 3, 4 }))
-                Console.WriteLine(x + " ");
-            //will return [1,2,3,4,5]
-            foreach (var x in RunningSum(new int[] { 1, 1, 1, 1, 1 }))
-                Console.WriteLine(x + " ");
-            //will return [3,4,6,16,17]
-            foreach (var x in RunningSum(new int[] { 3, 1, 2, 10, 1 }))
-                Console.WriteLine(x + " ");
-        }
-        #endregion
     }
 }
