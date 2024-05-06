@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+//  https://leetcode.com/problems/longest-common-prefix
+*/
+
+
+using System;
 
 namespace LeetCode.Tasks.Easy
 {

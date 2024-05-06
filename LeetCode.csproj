@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <LangVersion>7</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -48,7 +49,9 @@
     <Compile Include="Tasks\Easy\AddTwoIntegers.cs" />
     <Compile Include="Tasks\Easy\CalculateMoneyInLeetcodeBank.cs" />
     <Compile Include="Tasks\Easy\PerfectNumber.cs" />
+    <Compile Include="Tasks\Easy\RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="Tasks\Easy\RunningSumOf1dArray.cs" />
+    <Compile Include="Tasks\Easy\Sqrt(x).cs" />
     <Compile Include="Tasks\Medium\FindTheDuplicateNumber.cs" />
     <Compile Include="Tasks\Hard\MedianOfTwoSortedArrays.cs" />
     <Compile Include="Tasks\Easy\MergeSortedArray.cs" />
