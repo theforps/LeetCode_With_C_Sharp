@@ -49,6 +49,7 @@
     <Compile Include="Tasks\Easy\AddTwoIntegers.cs" />
     <Compile Include="Tasks\Easy\CalculateMoneyInLeetcodeBank.cs" />
     <Compile Include="Tasks\Easy\MajorityElement.cs" />
+    <Compile Include="Tasks\Easy\Numberof1Bits.cs" />
     <Compile Include="Tasks\Easy\PerfectNumber.cs" />
     <Compile Include="Tasks\Easy\RemoveDuplicatesFromSortedArray.cs" />
     <Compile Include="Tasks\Easy\RunningSumOf1dArray.cs" />
